@@ -1,1 +1,1 @@
-Project that contains training threads
+Project that contains other training threads
