@@ -1,7 +1,7 @@
 class DemoClass:
     """ does this work here with classes?
         yessssss"""
-    def __init__(self, a , b, x = 0, y = 0 ):
+    def __init__(self, a , b , x: int = 0, y: int = 0 ):
         self.a = a
         self.b = b
         self.x = x
