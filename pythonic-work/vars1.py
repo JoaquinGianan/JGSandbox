@@ -2,6 +2,7 @@
 
 if __name__ == "__main__":
     luna = "apolo"
+    luna_nueva = "sand 02"
 
     lista_variables = list(vars().items())
     for item in lista_variables:
