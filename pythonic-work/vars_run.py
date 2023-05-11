@@ -2,8 +2,9 @@
 
 import vars1
 cosmos = "2001"
-cine = "sand 01"
+cine1 = "sand 01"
 
+cine = "sand 03 also"
 
 
 print(f"otro")
