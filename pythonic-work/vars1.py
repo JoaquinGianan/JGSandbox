@@ -3,6 +3,7 @@
 if __name__ == "__main__":
     luna = "apolo"
     luna_nueva = "sand 02"
+    futura_luna = "sand 03"
 
     lista_variables = list(vars().items())
     for item in lista_variables:

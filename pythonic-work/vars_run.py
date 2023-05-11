@@ -2,7 +2,7 @@
 
 import vars1
 cosmos = "2001"
-
+cine = "sand 03 also"
 
 
 print(f"otro")
