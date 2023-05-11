@@ -3,15 +3,9 @@
 import vars1
 cosmos = "2001"
 cine1 = "sand 01"
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> 0d17916 (new cine var in vars-run)
 cine = "sand 03 also"
-=======
 cine3 = "sand 03 also"
->>>>>>> 4db44ed (falta un paso)
+
 
 
 print(f"otro")
