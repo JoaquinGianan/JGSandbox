@@ -3,7 +3,10 @@
 import vars1
 cosmos = "2001"
 cine1 = "sand 01"
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0d17916 (new cine var in vars-run)
 cine = "sand 03 also"
 
 
