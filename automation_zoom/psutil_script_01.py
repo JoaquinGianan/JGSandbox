@@ -20,7 +20,7 @@ meeting_url = 'https://zoom.us/j/meetingID'  # Replace 'meetingID' with the actu
 
 # Check if the process is already running before scheduling it.
 if not is_process_running('launch-zoom-chat.py'):
-    schedule.every().monday.at(time_of_day).do(launch_zoom_chat, meeting_url=meeting_url)
+    schedule.every().tuesday.at(time_of_day).do(launch_zoom_chat, meeting_url=meeting_url)
 
 # Run the scheduled tasks.
 while True:
