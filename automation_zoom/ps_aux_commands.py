@@ -10,5 +10,6 @@ pgrep -f python | xargs -I{} ps -p {} -o comm=
 
 ps aux | grep python | awk '{print $2, $11}'
 
-
+# name of process for a running zoom meeting
+/Applications/zoom.us.app/Contents/Frameworks/CptHost.app/Contents/MacOS/CptHost
 
