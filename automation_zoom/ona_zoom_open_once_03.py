@@ -9,7 +9,10 @@ def is_process_running():
     for p in psutil.process_iter(["cmdline"]):
         if p.info["cmdline"] is not None:
             if "/Applications/zoom.us.app/Contents/Frameworks/CptHost.app/Contents/MacOS/CptHost" in p.info["cmdline"]:
-                print("There is a zoom in place") # add a notification also
+                message = "There is a zoom in place"
+                script = f'display notification "{message}"'
+                print(message)
+                os.system(f"osascript -e '{script}'")
                 return True
     return False
 
