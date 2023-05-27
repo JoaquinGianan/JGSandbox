@@ -1,4 +1,4 @@
-
+# checks if a zoom meeting is being held by the host 
 
 import psutil
 

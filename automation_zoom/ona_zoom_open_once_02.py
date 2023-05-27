@@ -1,4 +1,4 @@
-# this script opens the zoom meeting link in the default browser, you must declare in the zoom app to open automatically
+# this script opens the zoom meeting link in the default browser, bur using a function to do it
 
 import os
 

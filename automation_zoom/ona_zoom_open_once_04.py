@@ -1,15 +1,12 @@
-# this script opens the zoom meeting link in the default browser, you must declare in the zoom app to open automatically
 
-
-
-
-# check to see if a zoom meeting is currently in place;
+# script lounches a schedule to open a recurrent zoom meetin, but first
+# it checks to see if a zoom meeting is currently in place;
 #  if not, it opens a new zoom meeting (a recurrent meeting),
 #  if yes, displays a notice telling there is one
 
+
 import os
 import psutil
-
 
 def is_process_running():
     for p in psutil.process_iter(["cmdline"]):
