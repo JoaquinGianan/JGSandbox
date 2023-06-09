@@ -13,7 +13,7 @@ ejemplo = 2721
 
 
 # with cProfile.Profile() as pr:
-#     pasar_a_romanos_01(ejemplo)
+#     f01(ejemplo)
 
 # stats = pstats.Stats(pr)
 # stats.sort_stats(pstats.SortKey.TIME)
